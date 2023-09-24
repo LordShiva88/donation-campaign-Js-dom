@@ -1,24 +1,34 @@
-import { useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const CardDetails = () => {
   const cardDetails = useLoaderData();
-  const { id } = useParams();
+  const { id: ide } = useParams();
 
-  const find = cardDetails.find((card) => card.id == id);
+  const find = cardDetails.find((card) => card.id == ide);
 
-  const { price, description, title, image } = find;
+  const { price, description, title, image, id} = find;
+
+  console.log(id)
+
+  const handleClick = () => {
+    toast("Successfully Donated !!!");
+  }
 
   return (
-    <div className="container mx-auto my-10">
+    <div className="w-4/5 mx-auto my-10">
       <div>
-        <img src={image} alt="" className="w-full relative" />
-        <div className="h-10 w-full bg-black absolute -m-10 opacity-40">
-          <button className="bg-green-500">Hello</button>
-        </div>
+        <img src={image} alt="" className="w-full relative rounded-lg" />
+        <div className="h-20 w-4/5 mx-auto bg-black absolute -m-20 opacity-40 p-2 rounded-lg"></div>
+        <button onClick={handleClick} className="bg-[#FF444A] absolute -m-16 ml-8 p-2 rounded-lg text-white">
+          Donate ${price}
+        </button>
       </div>
       <h2 className="text-4xl font-bold my-6">{title}</h2>
       <p>{description}</p>
+      <ToastContainer />
     </div>
   );
 };

@@ -41,26 +41,16 @@
     },
     {
       "id": 5,
-      "image": "https://i.ibb.co/fxDTk0s/Health.png",
-      "description": "Stay active and monitor your fitness with our Fitness Tracker. This device helps you track your daily activity, making it easier to achieve your health and fitness goals. It's a valuable tool for maintaining an active lifestyle and staying motivated. Whether you're a fitness enthusiast or just starting your fitness journey, the Fitness Tracker is your reliable companion, providing insights to help you lead a healthier life.",
-      "title": "Fitness Tracker",
-      "category": "Health",
-      "price": 269.99,
-      "textColor": "#0052FF",
-      "bgColor": "#0034FF3E"
+      "image": "https://i.ibb.co/kGHbmX7/Clothing.png",
+      "description": "Dress your little ones in style with our Children's Clothing set, available in various sizes. This collection includes a variety of clothing items suitable for different occasions. From playtime to special events, your kids will look their best and feel comfortable in these outfits. Elevate their wardrobe with quality clothing that's both trendy and practical.",
+      "title": "Children's Clothing",
+      "category": "Clothing",
+      "price": 250.00,
+      "textColor": "#79C23F",
+      "bgColor": "#79C23E3E"
     },
     {
       "id": 6,
-      "image": "https://i.ibb.co/LSjbnsC/Food.png",
-      "description": "Indulge your sweet tooth with our Assorted Chocolates. This delightful box contains a variety of chocolates, perfect for satisfying your cravings or sharing with loved ones. Whether you're celebrating a special occasion or simply treating yourself, these chocolates offer a delectable experience. Enjoy the rich flavors, smooth textures, and sweet moments they bring.",
-      "title": "Assorted Chocolates",
-      "category": "Food",
-      "price": 299.99,
-      "textColor": "#F87147",
-      "bgColor": "#F871473E"
-    },
-    {
-      "id": 7,
       "image": "https://i.ibb.co/nCnk3Cd/Education.png",
       "description": "Enhance your math skills with our Math Workbook, designed for elementary school students. This workbook offers a structured and engaging way to practice essential math concepts. It's a valuable resource for students looking to strengthen their math proficiency and build a solid foundation. With clear explanations and plenty of exercises, it makes learning math fun and educational.",
       "title": "Math Workbook",
@@ -70,15 +60,26 @@
       "bgColor": "#FF444A3E"
     },
     {
-      "id": 8,
-      "image": "https://i.ibb.co/kGHbmX7/Clothing.png",
-      "description": "Dress your little ones in style with our Children's Clothing set, available in various sizes. This collection includes a variety of clothing items suitable for different occasions. From playtime to special events, your kids will look their best and feel comfortable in these outfits. Elevate their wardrobe with quality clothing that's both trendy and practical.",
-      "title": "Children's Clothing",
-      "category": "Clothing",
-      "price": 250.00,
-      "textColor": "#79C23F",
-      "bgColor": "#79C23E3E"
+      "id": 7,
+      "image": "https://i.ibb.co/fxDTk0s/Health.png",
+      "description": "Stay active and monitor your fitness with our Fitness Tracker. This device helps you track your daily activity, making it easier to achieve your health and fitness goals. It's a valuable tool for maintaining an active lifestyle and staying motivated. Whether you're a fitness enthusiast or just starting your fitness journey, the Fitness Tracker is your reliable companion, providing insights to help you lead a healthier life.",
+      "title": "Fitness Tracker",
+      "category": "Health",
+      "price": 269.99,
+      "textColor": "#0052FF",
+      "bgColor": "#0034FF3E"
     },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/LSjbnsC/Food.png",
+      "description": "Indulge your sweet tooth with our Assorted Chocolates. This delightful box contains a variety of chocolates, perfect for satisfying your cravings or sharing with loved ones. Whether you're celebrating a special occasion or simply treating yourself, these chocolates offer a delectable experience. Enjoy the rich flavors, smooth textures, and sweet moments they bring.",
+      "title": "Assorted Chocolates",
+      "category": "Food",
+      "price": 299.99,
+      "textColor": "#F87147",
+      "bgColor": "#F871473E"
+    },
+    
     {
       "id": 9,
       "image": "https://i.ibb.co/fxDTk0s/Health.png",
