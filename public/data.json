@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/fxDTk0s/Health.png",
+      "description": "Discover the essential Health Essentials Kit, a comprehensive first aid solution that ensures your preparedness for any medical situation. This kit includes a range of essential medical supplies, including bandages, antiseptic wipes, scissors, and more, all neatly organized in a durable case. Be it at home, during outdoor adventures, or while traveling, this kit provides peace of mind and safety. Invest in your well-being and that of your loved ones today. With its bold blue title and soothing background, it's not just a kit; it's your health's best companion.",
+      "title": "Health Essentials Kit",
+      "category": "Health",
+      "price": 249.99,
+      "textColor": "#0052FF",
+      "bgColor": "#0034FF3E"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/LSjbnsC/Food.png",
+      "description": "Experience the bountiful goodness of our Organic Produce Box, filled with fresh, locally sourced organic vegetables and fruits. This box is a testament to our commitment to providing the freshest and most nutritious food possible. It's perfect for health-conscious individuals and families, supporting sustainable agriculture while nourishing your body. Embrace the vibrant colors and natural flavors of organic produce with every bite. By choosing our Organic Produce Box, you're not just enjoying quality food; you're supporting local farmers and a healthier planet.",
+      "title": "Organic Produce Box",
+      "category": "Food",
+      "price": 299.99,
+      "textColor": "#F87147",
+      "bgColor": "#F871473E"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/nCnk3Cd/Education.png",
+      "description": "Embark on an exciting journey of web development with our Web Development Course. Whether you're a beginner or aspiring developer, this comprehensive online course covers HTML, CSS, JavaScript, and more. It's designed to enhance your web development skills, create responsive websites, develop interactive web applications, and optimize for performance and SEO. With a focus on hands-on projects and real-world applications, this course sets you on a path to success. Start your web development journey today with a course that's as dynamic and engaging as the web itself.",
+      "title": "Good education",
+      "category": "Education",
+      "price": 399.99,
+      "textColor": "#FF444A",
+      "bgColor": "#FF444A3E"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/kGHbmX7/Clothing.png",
+      "description": "Spread warmth and compassion with our gently used Winter Coat. This coat is in excellent condition, ready to provide comfort and protection during the cold months. By choosing this coat, you're not just staying warm yourself but also making a positive impact on someone in need. Winter can be harsh, especially for those facing financial challenges or homelessness. Your purchase helps provide winter clothing and embodies the spirit of giving.",
+      "title": "Winter Coat",
+      "category": "Clothing",
+      "price": 250.00,
+      "textColor": "#79C23F",
+      "bgColor": "#79C23E3E"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/fxDTk0s/Health.png",
+      "description": "Stay active and monitor your fitness with our Fitness Tracker. This device helps you track your daily activity, making it easier to achieve your health and fitness goals. It's a valuable tool for maintaining an active lifestyle and staying motivated. Whether you're a fitness enthusiast or just starting your fitness journey, the Fitness Tracker is your reliable companion, providing insights to help you lead a healthier life.",
+      "title": "Fitness Tracker",
+      "category": "Health",
+      "price": 269.99,
+      "textColor": "#0052FF",
+      "bgColor": "#0034FF3E"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/LSjbnsC/Food.png",
+      "description": "Indulge your sweet tooth with our Assorted Chocolates. This delightful box contains a variety of chocolates, perfect for satisfying your cravings or sharing with loved ones. Whether you're celebrating a special occasion or simply treating yourself, these chocolates offer a delectable experience. Enjoy the rich flavors, smooth textures, and sweet moments they bring.",
+      "title": "Assorted Chocolates",
+      "category": "Food",
+      "price": 299.99,
+      "textColor": "#F87147",
+      "bgColor": "#F871473E"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/nCnk3Cd/Education.png",
+      "description": "Enhance your math skills with our Math Workbook, designed for elementary school students. This workbook offers a structured and engaging way to practice essential math concepts. It's a valuable resource for students looking to strengthen their math proficiency and build a solid foundation. With clear explanations and plenty of exercises, it makes learning math fun and educational.",
+      "title": "Math Workbook",
+      "category": "Education",
+      "price": 329.99,
+      "textColor": "#FF444A",
+      "bgColor": "#FF444A3E"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/kGHbmX7/Clothing.png",
+      "description": "Dress your little ones in style with our Children's Clothing set, available in various sizes. This collection includes a variety of clothing items suitable for different occasions. From playtime to special events, your kids will look their best and feel comfortable in these outfits. Elevate their wardrobe with quality clothing that's both trendy and practical.",
+      "title": "Children's Clothing",
+      "category": "Clothing",
+      "price": 250.00,
+      "textColor": "#79C23F",
+      "bgColor": "#79C23E3E"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/fxDTk0s/Health.png",
+      "description": "Relax and unwind with our Herbal Tea Blend, expertly crafted for relaxation and stress relief. This blend features a harmonious combination of herbs and botanicals known for their soothing properties. Whether you're seeking a moment of tranquility or a gentle way to ease stress, this herbal tea is your perfect companion.",
+      "title": "Herbal Tea Blend",
+      "category": "Health",
+      "price": 279.99,
+      "textColor": "#0052FF",
+      "bgColor": "#0034FF3E"
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/LSjbnsC/Food.png",
+      "description": "Savor the rich flavors of our Premium Coffee Beans, sourced from a local roastery. This bag of coffee beans promises a coffee experience like no other. Whether you're a coffee connoisseur or simply love a good cup of joe, these premium beans will awaken your senses and elevate your coffee ritual. Start your day with the perfect brew.",
+      "title": "Premium Coffee Beans",
+      "category": "Food",
+      "price": 299.99,
+      "textColor": "#F87147",
+      "bgColor": "#F871473E"
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/nCnk3Cd/Education.png",
+      "description": "Embark on a journey of language learning with our Language Learning App subscription. Gain access to a world of languages and cultures, all from the comfort of your device. Whether you're a traveler, a language enthusiast, or someone looking to expand your horizons, this app offers a seamless and immersive language learning experience.",
+      "title": "Language Learning App",
+      "category": "Education",
+      "price": 329.99,
+      "textColor": "#FF444A",
+      "bgColor": "#FF444A3E"
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/kGHbmX7/Clothing.png",
+      "description": "Elevate your wardrobe with our Clothing collection, perfect for job interviews and formal occasions. This selection of formal wear ensures you look polished and confident. From classic suits to elegant dresses, our clothing pieces are designed to make you feel your best when it matters most. Dress for success with our Clothing collection.",
+      "title": "Clothing",
+      "category": "Clothing",
+      "price": 250.00,
+      "textColor": "#79C23F",
+      "bgColor": "#79C23E3E"
+    }
+  ]
+  

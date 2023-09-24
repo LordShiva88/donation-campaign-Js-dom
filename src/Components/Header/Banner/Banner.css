@@ -1,0 +1,8 @@
+
+.bg-image{
+  background-image: url(../../../assets/main-organdonation.jpg), linear-gradient(rgba(253, 253, 253,0.9),rgba(241, 240, 240, 0.9));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
