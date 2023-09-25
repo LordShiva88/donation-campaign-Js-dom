@@ -2,6 +2,9 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
+import { saveDonate } from "../../Utility/LocalStroage";
+
+
 
 const CardDetails = () => {
   const cardDetails = useLoaderData();
@@ -9,11 +12,11 @@ const CardDetails = () => {
 
   const find = cardDetails.find((card) => card.id == ide);
 
-  const { price, description, title, image, id, bgColor} = find;
+  const { price, description, title, image, id,textColor} = find;
 
-  console.log(id)
 
   const handleClick = () => {
+    saveDonate(id)
     toast("Successfully Donated !!!");
   }
 
@@ -22,7 +25,7 @@ const CardDetails = () => {
       <div>
         <img src={image} alt="" className="w-full relative rounded-lg" />
         <div className="h-20 w-4/5 mx-auto bg-black absolute -m-20 opacity-40 p-2 rounded-lg"></div>
-        <button onClick={handleClick} style={{backgroundColor: bgColor}} className="hover:bg-[#FF444A] absolute -m-16 ml-8 p-2 rounded-lg text-white">
+        <button onClick={handleClick} style={{backgroundColor: textColor}} className="hover:bg-[#FF444A] absolute -m-16 ml-8 p-2 rounded-lg text-white">
           Donate ${price}
         </button>
       </div>

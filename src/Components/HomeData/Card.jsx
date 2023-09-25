@@ -5,8 +5,8 @@ const Card = ({ card }) => {
   const { category, image, title, textColor, bgColor, id } = card;
   return (
     <Link to={`/card/${id}`}>
-      <div className="card bg-base-100 shadow-xl">
-        <img src={image} alt="" />
+      <div className="card  bg-base-100 shadow-xl">
+        <img src={image} alt="" className="h-60 rounded-tl-lg rounded-tr-lg" />
 
         <div
           style={{ backgroundColor: bgColor }}

@@ -32,15 +32,6 @@ const HomeData = ({data}) => {
   };
 
 
-// const HomeData = ({ data }) => {
-//   const [cards, setCards] = useState([]);
-//   const [filteredCards, setFilteredCards] = useState([]);
-
-//   useEffect(() => {
-//     setCards(data);
-//     setFilteredCards(data);
-//   }, [data]);
-
 
   return (
     <div>

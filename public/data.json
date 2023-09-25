@@ -116,7 +116,7 @@
       "description": "Elevate your wardrobe with our Clothing collection, perfect for job interviews and formal occasions. This selection of formal wear ensures you look polished and confident. From classic suits to elegant dresses, our clothing pieces are designed to make you feel your best when it matters most. Dress for success with our Clothing collection.",
       "title": "Clothing",
       "category": "Clothing",
-      "price": 250.00,
+      "price": 250,
       "textColor": "#79C23F",
       "bgColor": "#79C23E3E"
     }
