@@ -1,4 +1,4 @@
-import { PieChart, Pie, Bar, Cell, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import { getDonate } from "../../Utility/LocalStroage";
 import { useLoaderData } from "react-router-dom";
 import { useEffect, useState } from "react";

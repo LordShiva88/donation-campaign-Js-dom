@@ -4,34 +4,32 @@ import { useState } from "react";
 import Card from "./Card";
 import PropTypes from "prop-types";
 
-const HomeData = ({data}) => {
+const HomeData = ({ data }) => {
   const [cards, setCards] = useState([]);
   const [filterCards, setFilteredCards] = useState([]);
 
-
-
-
-  useEffect(()=>{
-    setCards(data)
-    setFilteredCards(data)
-  },[data])
-
-
+  useEffect(() => {
+    setCards(data);
+    setFilteredCards(data);
+  }, [data]);
 
   const handleBtn = () => {
     const input = document.getElementById("input");
     const inputValue = input.value.toLowerCase();
-    console.log(inputValue)
+    console.log(inputValue);
 
-
-
-    if(inputValue === 'food' || inputValue === 'health' || inputValue === 'clothing' || inputValue === 'education'){
-      const filterData = cards.filter(card => card.category.toLowerCase() === inputValue);
-      setFilteredCards(filterData)
+    if (
+      inputValue === "food" ||
+      inputValue === "health" ||
+      inputValue === "clothing" ||
+      inputValue === "education"
+    ) {
+      const filterData = cards.filter(
+        (card) => card.category.toLowerCase() === inputValue
+      );
+      setFilteredCards(filterData);
     }
   };
-
-
 
   return (
     <div>

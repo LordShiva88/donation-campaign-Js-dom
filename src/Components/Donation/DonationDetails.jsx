@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+
+
 const DonationDetails = ({ donation }) => {
   const [donates, setDonates] = useState([]);
 

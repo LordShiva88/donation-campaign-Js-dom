@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -60,19 +60,21 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52"
+              className="dropdown-content bg-base-200 mt-3 z-[1] p-5 space-y-3 shadow rounded-box w-52"
             >
               {navLink}
             </ul>
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden md:flex">
             <img src={image} alt="" />
           </div>
         </div>
-        <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navLink}</ul>
+        <div className="navbar-end hidden md:flex">
+          <ul className="px-1 flex gap-8">
+            {navLink}
+          </ul>
         </div>
-        <div className="navbar-end flex lg:hidden">
+        <div className="navbar-end flex md:hidden">
           <img src={image} alt="" />
         </div>
       </div>
