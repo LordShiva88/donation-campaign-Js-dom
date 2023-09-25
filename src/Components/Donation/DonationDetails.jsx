@@ -13,10 +13,10 @@ const DonationDetails = ({ donation }) => {
 
   const { price, category, title, image, textColor, bgColor } = donates;
   return (
-    <div className="flex">
+    <div className="flex md:flex-row flex-col">
       <img src={image} alt="" />
 
-      <div style={{ backgroundColor: bgColor }} className="card-body">
+      <div style={{ backgroundColor: bgColor }} className="card-body rounded-b-lg">
         <h2
           style={{ backgroundColor: bgColor, color: textColor }}
           className="card-title w-32 px-4 py-1 rounded-md"

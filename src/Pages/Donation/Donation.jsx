@@ -25,8 +25,8 @@ const Donation = () => {
   };
 
   return (
-    <div className="m-10">
-      <div className="container mb-10 mx-auto grid lg:grid-cols-2 gap-5">
+    <div className="m-10 container mx-auto">
+      <div className="mb-10 mx-auto grid lg:grid-cols-2 gap-5">
         {getDonates.slice(0, dataLength).map((donation) => (
           <DonationDetails
             key={donation.id}
