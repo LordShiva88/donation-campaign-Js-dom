@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 const Statistics = () => {
   const [updateData, setUpdateData] = useState();
+  const [totalDonateData, setTotalDonate] = useState(0);
 
   const givenDonate = getDonate();
 
@@ -15,9 +16,14 @@ const Statistics = () => {
     setUpdateData(dataAfterDonate);
   }, [givenDonate, totalDonate]);
 
+  useEffect(() => {
+    const DonateData = givenDonate.length;
+    setTotalDonate(DonateData);
+  }, [givenDonate]);
+
   const data = [
     { name: "Group A", value: updateData },
-    { name: "Group B", value: totalDonate.length },
+    { name: "Group B", value: totalDonateData },
   ];
   const COLORS = ["#FF444A", "#00C49F"];
   const RADIAN = Math.PI / 180;
